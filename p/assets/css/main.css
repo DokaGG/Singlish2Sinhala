@@ -1,0 +1,162 @@
+@font-face {
+    font-family: "1_un_bindumathi";
+    src: url(../download_fonts/unicode/un-bindumathi.ttf);
+}
+.font_class_1_un_bindumathi {
+    font-family: "1_un_bindumathi", Ubuntu-R, sans-serif !important;
+}
+@font-face {
+    font-family: "2_un_emanee";
+    src: url("../fonts/1/un-emanee-no-eng.woff") format("woff");
+    src: url("../fonts/1/un-emanee-no-eng.eot") format("eot");
+}
+.font_class_2_un_emanee {
+    font-family: "2_un_emanee", Ubuntu-R, sans-serif !important;
+}
+@font-face {
+    font-family: "3_un_malithi";
+    src: url("../fonts/1/FM-Malithi.woff") format("woff");
+    src: url("../fonts/1/FM-Malithi.eot") format("eot");
+}
+.font_class_3_un_malithi {
+    font-family: "3_un_malithi", Ubuntu-R, sans-serif !important;
+}
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap");
+@font-face {
+    font-family: ganganee;
+    src: url("../fonts/1/un-ganganee.woff") format("woff");
+    src: url("../fonts/1/un-ganganee.eot") format("eot");
+}
+@font-face {
+    font-family: emanee;
+    src: url("../fonts/1/un-emanee-no-eng.woff") format("woff");
+    src: url("../fonts/1/un-emanee-no-eng.eot") format("eot");
+}
+@font-face {
+    font-family: bindumathi;
+    src: url("../fonts/1/bindu-sinhala-only.woff") format("woff");
+    src: url("../fonts/1/bindu-sinhala-only.eot") format("eot");
+}
+@font-face {
+    font-family: Ubuntu-R;
+    src: url("../fonts/1/Ubuntu-Regular.woff") format("woff");
+    src: url("../fonts/1/Ubuntu-Regular.eot") format("eot");
+}
+@font-face {
+    font-family: malithi;
+    src: url("../download_fonts/legacy/FM_MALIT.TTF");
+}
+@font-face {
+    font-family: UN-Abhaya;
+    src: url("../fonts/1/un-abhaya.woff") format("woff");
+    src: url("../fonts/1/un-abhaya.eot") format("eot");
+}
+
+#results_legacy {
+    font-family: malithi;
+}
+
+.transl {
+    padding-left: 5%;
+    margin: 0;
+}
+.des-typing-wrapper .des-typing-inner > .d-flex{
+    transform:translatex(0px) translatey(0px) !important;
+   }
+   #hint{
+    margin-bottom:0px;
+   }
+@media (max-width:575px){
+    #hint{
+        margin-right: 0px;
+        width: 214px;
+    }
+}
+
+/* Style for the custom-dropdown container */
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the dropdown toggle button */
+.custom-dropdown .dropdown-toggle {
+    display: inline-block;
+    margin: 5px;
+    background-color: #4da789; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    border: 1px solid #124c74; /* Set your desired border color */
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style for the dropdown menu (initially hidden) */
+.custom-dropdown .dropdown-menu {
+    display: none; /* Hide the dropdown menu by default */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px; /* Set your desired min-width */
+    background-color: #fff; /* Set your desired background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Set your desired box shadow */
+    border: 1px solid #ddd; /* Set your desired border color */
+    border-radius: 4px;
+    z-index: 1;
+}
+.seo {
+    margin-top: 10px;
+    margin-left: 5%;
+}
+.seo h2 {
+    font-size: 1.5em;
+}
+.seo h2 a:link {
+        text-decoration: none;
+      }
+      
+.seo h2    a:hover {
+        background-color: lightgreen;
+      }
+.seo h2     a:active {
+        background-color: hotpink;
+      } 
+
+
+
+
+/* Default styles for main and sidebar */
+.maincol {
+    display: flex !important;
+    align-items: flex-start;
+}
+
+.main1 {
+    width: 73%; /* Set your desired main width */
+}
+
+.sidebar1 {
+    margin-top: 10px;
+    width: 25%; /* Set your desired sidebar width */
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    margin-left: auto;
+}
+
+/* Responsive styles for mobile screens */
+@media (max-width: 767px) {
+    .maincol {
+        flex-direction: column; /* Stack main and sidebar vertically on small screens */
+    }
+
+    .main1,
+    .sidebar1 {
+        width: 100%; /* Take full width on small screens */
+    }
+}
+.logo-img {
+    width: 200px; /* Set the width of your logo */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 10px; /* Add some spacing to the right of the logo */
+}
+
